@@ -6,11 +6,87 @@
 
 // подключения компонентов страницы
 @import "./components/header";
-
 // тестовые стили, удалите их
-.page__body {
+
+.body {
+  background: #1F2229;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header__container {
+  margin: 0 auto;
+}
+
+.row {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: var(--vh);
+  justify-content: space-between;
+}
+
+.header {
+  background: #FFAF0F;
+}
+
+.header__row {
+  // padding: 0 402px;
+  max-width: 69.75rem;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo--desc {
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Standard CT Stencil;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  /* 26.4px */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.menu__list {
+  display: flex;
+
+}
+
+
+.menu__link {
+  color: #FFF;
+  font-family: Tele2 TextSans Web SHORT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 137.5% */
+  padding: 8px 15px 8px 15px;
+  transition: all 0.5s ease 0s;
+}
+
+.menu__link:hover {
+  border-radius: 60px;
+  background: #FFF;
+
+  color: #1F2229;
+  font-family: Tele2 TextSans Web SHORT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 137.5% */
 }
