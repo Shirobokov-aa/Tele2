@@ -8,8 +8,11 @@
 @import "./components/header";
 // тестовые стили, удалите их
 
-.body {
-  background: #1F2229;
+// .body {
+//   background: #1F2229;
+// }
+.main {
+  background-color: #1F2229;
 }
 
 ul,
@@ -24,6 +27,14 @@ li {
 .header__container {
   margin: 0 auto;
 }
+
+// .site-container{
+//   background: #1F2229;
+// }
+// .page__body{
+//   background: #1F2229;
+
+// }
 
 .row {
   display: flex;
@@ -238,4 +249,29 @@ li {
 .swiper-pagination-bullet-active {
   opacity: 1;
   background: #fff;
+}
+
+.about__container{
+  padding-top: 60px;
+  padding-left: 400px;
+  box-sizing: border-box;
+
+}
+
+.about__title{
+  color: #FFF;
+font-family: Tele2 Display Serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; /* 122.222% */
+}
+
+.about__subtitle{
+  color: #FFF;
+font-family: Tele2 TextSans Web SHORT;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
 }
