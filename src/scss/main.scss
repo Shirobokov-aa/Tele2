@@ -18,6 +18,9 @@
 ul,
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
+
 }
 
 .container {
@@ -281,12 +284,12 @@ li {
   /* 140% */
 }
 
-.gid__container{
+.gid__container {
   padding-top: 100px;
   box-sizing: border-box;
 }
 
-.git__title{
+.git__title {
   padding-bottom: 50px;
   box-sizing: border-box;
 }
@@ -339,4 +342,24 @@ li {
   flex-shrink: 0;
   border-radius: 33px;
   box-sizing: border-box;
+}
+
+.tabs-nav__block {
+  display: flex;
+  padding-top: 36px;
+}
+
+.tabs_nav__item {
+  color: #FFF;
+  font-family: Tele2 Display Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 175% */
+}
+
+.tabs_nav__item +.tabs_nav__item {
+  margin-left: 36px;
+
 }
