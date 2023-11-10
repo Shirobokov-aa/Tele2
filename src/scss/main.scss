@@ -60,6 +60,7 @@ li {
 .header__row {
   // padding: 0 402px;
   max-width: 69.75rem;
+  box-sizing: border-box;
 }
 
 .header__logo {
@@ -98,6 +99,7 @@ li {
   /* 137.5% */
   padding: 8px 15px 8px 15px;
   transition: all 0.5s ease 0s;
+  box-sizing: border-box;
 }
 
 .menu__link:hover {
@@ -217,6 +219,7 @@ li {
   border-radius: 30px;
   border: 2px solid #fff;
   transition: all 0.3s ease 0s;
+  box-sizing: border-box;
 }
 
 .slider__button-link:hover {
@@ -251,27 +254,89 @@ li {
   background: #fff;
 }
 
-.about__container{
+.about__container {
   padding-top: 60px;
   padding-left: 400px;
   box-sizing: border-box;
 
 }
 
-.about__title{
+.title {
   color: #FFF;
-font-family: Tele2 Display Serif;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 44px; /* 122.222% */
+  font-family: Tele2 Display Serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  /* 122.222% */
 }
 
-.about__subtitle{
+.subtitle {
   color: #FFF;
-font-family: Tele2 TextSans Web SHORT;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 140% */
+  font-family: Tele2 TextSans Web SHORT;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 140% */
+}
+
+.gid__container{
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.git__title{
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+
+.gid__switch-button {
+  display: flex;
+  display: flex;
+  width: 570px;
+  height: 80px;
+  padding: 6.482px 7px 6.518px 7px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 2px solid #FFAF0F;
+  box-sizing: border-box;
+}
+
+.switch-button__sity {
+  display: flex;
+  height: 66px;
+  padding: 16.615px 52.5px 21.385px 51.5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 33px;
+  background: #FFAF0F;
+  box-sizing: border-box;
+}
+
+.switch-button__txt {
+  color: #FFF;
+  text-align: center;
+  font-family: Tele2 Display Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 140% */
+}
+
+.switch-button__rouge {
+  display: flex;
+  width: 298px;
+  height: 66px;
+  padding: 16.615px 58.5px 21.385px 58.5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 33px;
+  box-sizing: border-box;
 }
