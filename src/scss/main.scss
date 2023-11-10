@@ -257,7 +257,7 @@ li {
   background: #fff;
 }
 
-.about{
+.about {
   padding-top: 60px;
   padding-left: 400px;
   box-sizing: border-box;
@@ -365,12 +365,16 @@ li {
   /* 175% */
 }
 
-.tabs_nav__item +.tabs_nav__item {
+.tabs_nav__item+.tabs_nav__item {
   margin-left: 36px;
 
 }
 
-.row{
+.images-top__row {
   display: flex;
   width: 100%;
+}
+
+.image-top__item + .image-top__item{
+  margin-left: 36px;
 }
