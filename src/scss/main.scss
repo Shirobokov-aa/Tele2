@@ -257,6 +257,12 @@ li {
   background: #fff;
 }
 
+.about{
+  padding-top: 60px;
+  padding-left: 400px;
+  box-sizing: border-box;
+}
+
 .about__container {
   padding-top: 60px;
   padding-left: 400px;
@@ -362,4 +368,9 @@ li {
 .tabs_nav__item +.tabs_nav__item {
   margin-left: 36px;
 
+}
+
+.row{
+  display: flex;
+  width: 100%;
 }
